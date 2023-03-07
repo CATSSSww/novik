@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#wrapper{
+    width: 945px;
+    margin: 0 auto; 
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 700;
+    padding: 0;
+    height: 88px;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #828282;
+}
+ 
+.nav a:hover {
+    color: #070707;
+}
+
+.header_text_top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+.Name {
+    font-size: 48px;   
+}
+
+
+.Language {
+    writing-mode: vertical-lr;
+}
+
+span {
+    color: #828282;
+}
+
+.header_top .jpg_1 {
+    padding-top: 40px;
+}
+
+.header_text_center {
+    padding: 100px;
+    font-weight: 550;
+    text-align: center;
+    font-size: 16px;
+    background-color: #ececec8e; 
+}
+
+.header_center {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.text_1 {
+    padding: 10px;
+}
+
+.text_2, .text_3{
+    padding: 15px;
+}
+
+.header_bottom {
+    text-align: center;
+    padding-bottom: 180px;  
+}
+
+.header_bottom .png_header_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+.body {
+    padding-top: 70px;
+    padding-bottom: 100px;   
+    text-align: center;
+    background-color: #ececec8e; 
+}
+
+.body .png_body_1, .png_body_2, .png_body_3 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.body a:hover {
+    color: #828282;
+}
+
+.body a {
+    color: #070707;
+    font-weight: 550;
+}
+
+.footer {
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.footer_button {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.button {
+    cursor: pointer;
+    border-color: #ffffff;
+    border-radius: 55px;
+    background: #070707;
+    color: #ffffff;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 550; 
+}
+
+.button:hover {
+    background: #000000e0;
+}
+
+.button:focus {
+    box-shadow: 0 0 0 3px #363636;
+}
+
+.png_footer {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 45px;
+}
+
+.footer_text {
+    color: #828282;
+    font-weight: 200;
+    font-size: 14px;
+    padding-bottom: 150px;
+}
+
